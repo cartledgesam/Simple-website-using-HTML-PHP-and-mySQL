@@ -103,33 +103,7 @@ $dayOfWeek = date("l", $unixTimestamp);
 
 
 
-if($dayOfWeek=='Sunday')
-{
-  $num = 0;
-}else if($dayOfWeek == 'Monday')
-{
-  $num = 1;
-}
-else if($dayOfWeek == 'Tuesday')
-{
-  $num = 2;
-}
-else if($dayOfWeek == 'Wednesday')
-{
-  $num = 3;
-}
-else if($dayOfWeek == 'Thursday')
-{
-  $num = 4;
-}
-else if($dayOfWeek == 'Friday')
-{
-  $num = 5;
-}
-else if($dayOfWeek == 'Saturday')
-{
-  $num = 6;
-}
+
 
 
 
